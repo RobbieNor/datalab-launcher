@@ -102,3 +102,15 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+artif/containers/*
+!artif/containers/null
+artif/my_notebooks/*
+!artif/my_notebooks/null
+artif/shared_drive/team_folders/*
+!artif/shared_drive/team_folders/null
+artif/shared_drive/workbook_templates/*
+!artif/shared_drive/workbook_templates/null
+.idea/
+
+Pipfile.lock

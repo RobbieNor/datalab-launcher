@@ -1,0 +1,24 @@
+{
+   "latest_dockerfile":"./artif/shared_drive/",
+   "settings":{
+      "open_on_start":true
+   },
+   "local_drive" : "artif/",
+   "drives":[ 
+      {  
+         "Access":"ro",
+         "Path":"artif/shared_drive/workbook_templates/",
+         "Mountpoint":"/content/datalab/workspace/workbook_templates",
+         "Name":"Workbook Templates"
+      },
+      {  
+         "Access":"rw",
+         "Path":"artif/shared_drive/team_folders/",
+         "Mountpoint":"/content/datalab/workspace/team_folders",
+         "Name":"Team Folders"
+      }
+   ],
+   "docker_client_timeout":1200,
+   "opening_countdown" : 3,
+   "containers_logfile" : "./containers.json"
+}
